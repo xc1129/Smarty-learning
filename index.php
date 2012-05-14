@@ -1,18 +1,9 @@
 <?php
-include("./libs/Smarty.class.php"); 
-$smarty = new Smarty(); 
-$smarty->template_dir = './templates';
-$smarty->compile_dir = './templates_c';
-$smarty->config_dir = './configs';
-$smarty->cache_dir = './cache';
-$smarty->caching = false;
+include "./setup.php";
 
-$smarty->left_delimiter = "<{";
-$smarty->right_delimiter = "}>";
+$smarty=new Smarty_setup();
+$smartyObj=$smarty->setUpSmarty();
 
-
-$smarty->assign("title", "test"); 
-$smarty->assign("content","wocaonimagebi");
 $smarty->assign("name","spirit_xc");
-$smarty->display("index.tpl"); 
+$smarty->display("index.tpl");
 ?>
