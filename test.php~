@@ -15,7 +15,7 @@ $smarty->right_delimiter = "}>";
 
 
 $smarty->assign("title", "test"); 
-$smarty->assign("content","HelloWorld");
+$smarty->assign("content","wocaonimagebi");
 
 $smarty->display("test.tpl"); 
 

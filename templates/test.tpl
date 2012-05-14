@@ -1,6 +1,5 @@
 <html>
-<head><title><{$title}></title></head>
 <body>
-    <{$content}>
+<{$name}>
 </body>
 </html>
