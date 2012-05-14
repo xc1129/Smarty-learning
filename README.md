@@ -1,0 +1,4 @@
+Smarty-learning
+===============
+
+learning smarty
